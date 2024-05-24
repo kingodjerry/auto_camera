@@ -1,0 +1,82 @@
+/* 전체 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+/* 헤더 설정 */
+#header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+/* 비디오 설정 */
+video {
+    width: auto; /* 전체 화면 가로 크기 */
+    height: auto; /* 높이는 자동으로 설정 */
+}
+
+#video {
+    transform: scaleX(-1); /* 좌우 반전 */
+}
+
+/* 카메라 컨테이너 설정 */
+#camera-container {
+    position: relative;
+    width: 80vw; /* 전체 화면 가로 크기 */
+    height: 75vh; /* 화면 세로의 75% */
+    aspect-ratio: 3 / 4; /* 비율 유지 */
+    overflow: hidden;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* 중앙 정렬 */
+}
+
+/* 이미지 슬라이더 설정 */
+#image-slider {
+    display: flex;
+    overflow-x: auto; /* 수평 스크롤 */
+    scroll-snap-type: x mandatory; /* 스냅 스크롤 */
+    width: 100vw; /* 전체 화면 가로 크기 */
+    height: 150px; /* 고정 높이 */
+    gap: 10px; /* 이미지 사이의 간격 */
+}
+
+#image-slider::-webkit-scrollbar {
+    display: none; /* 스크롤바 숨기기 */
+}
+
+/* 각 이미지 설정 */
+.img {
+    flex: none;
+    scroll-snap-align: start; /* 시작점 스냅 */
+    width: 150px; /* 각 이미지의 가로 크기 */
+    height: 150px; /* 각 이미지의 세로 크기 */
+    background: #f0f0f0; /* 배경색 (더 보기 좋게) */
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 중앙 정렬 */
+}
+
+.img img {
+    display: block;
+    width: 100%; /* 부모 요소 크기에 맞춤 */
+    height: auto; /* 높이 자동 조정 */
+}
+
+#footer {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 1rem;
+}
