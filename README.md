@@ -66,4 +66,5 @@ Prediction : 0.967 / Recall : 0.949 / mAP50 : 0.973 <br>
 </div>
 
 ## 실행 화면
-![image](https://github.com/kingodjerry/auto_camera/assets/143167244/58a21aec-982a-4169-9a40-9c5d27a36783)
+![image](https://github.com/kingodjerry/auto_camera/assets/143167244/f54aebaf-dbea-4a7c-9cd2-dbe46198e5e8)
+
