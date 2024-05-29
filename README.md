@@ -25,10 +25,9 @@
  ┣ 📂auto_cam
  ┃ ┣ 📂model
  ┃ ┃ ┣ 📜best.pt (custom model)
- ┃ ┃ ┣ 📜detection.py (AI)
+ ┃ ┃ ┣ 📜camera.py (Cam & Object detection)
  ┃ ┃ ┗ 📜models.py (DB)
  ┃ ┣ 📂static
- ┃ ┃ ┣ 📂photos
  ┃ ┃ ┣ 📜index.css
  ┃ ┃ ┗ 📜index.js
  ┃ ┣ 📂templates
