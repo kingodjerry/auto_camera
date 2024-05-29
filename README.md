@@ -21,17 +21,24 @@
 
 ## 파일 구조
 ```
-Auto_cam
- ┣ model
- ┃ ┣ best.pt
- ┃ ┗ models.py
- ┣ static
- ┃ ┗ index.css
- ┣ templates
- ┃ ┗ index.html
- ┣ views
- ┃ ┗ main_views.py
- ┗ yolov5
+📦Auto_cam
+ ┣ 📂auto_cam
+ ┃ ┣ 📂model
+ ┃ ┃ ┣ 📜best.pt (custom model)
+ ┃ ┃ ┣ 📜detection.py (AI)
+ ┃ ┃ ┗ 📜models.py (DB)
+ ┃ ┣ 📂static
+ ┃ ┃ ┣ 📂photos
+ ┃ ┃ ┣ 📜index.css
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┣ 📂templates
+ ┃ ┃ ┗ 📜index.html
+ ┃ ┣ 📂views
+ ┃ ┃ ┗ 📜main_views.py
+ ┃ ┗ 📜__init__.py
+ ┣ 📂migrations
+ ┣ 📂yolov5 (git clone)
+ ┗ 📜auto_cam.db
 ```
 
 ## 기술 설명

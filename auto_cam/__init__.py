@@ -1,4 +1,4 @@
-from flask import Flask, current_app
+from flask import Flask
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
@@ -15,6 +15,9 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
     from auto_cam.model import models
+
+    with app.app_context():
+        db.create_all()
 
     # 블루프린트 등록
     from auto_cam.views import main_views
