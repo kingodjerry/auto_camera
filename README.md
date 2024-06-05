@@ -53,17 +53,17 @@ YOLOv5은 Object detection(객체 인식) 분야에서 널리 사용되는 딥�
 ## 성능
 Prediction : 0.967 / Recall : 0.949 / mAP50 : 0.973 <br>
 
-<div>  
-  <img src="https://github.com/kingodjerry/auto_camera/assets/143167244/c8532b3c-7f11-4d96-8767-ad1d590b2c10" width="50%"><img src="https://github.com/kingodjerry/auto_camera/assets/143167244/35a19183-fbb3-42a1-ae3c-ff3debbb4fff" width="50%"> 
-</div>
+| Precision | Recall |
+|:---:|:---:|
+| ![img](https://github.com/kingodjerry/auto_camera/assets/143167244/c8532b3c-7f11-4d96-8767-ad1d590b2c10) | ![img](https://github.com/kingodjerry/auto_camera/assets/143167244/35a19183-fbb3-42a1-ae3c-ff3debbb4fff) |
 
 <img width=100% src="https://github.com/kingodjerry/auto_camera/assets/143167244/d57d5b81-1362-4c57-9ec4-8bd53a1d4c22"></img>
 
 ## 테스트 화면
 
-<div>
-<img width=33% height=100% src="https://github.com/kingodjerry/auto_camera/assets/143167244/6defd17b-5ae3-4844-8cb6-3f01f07358b6"></img><img width=33% height=100% src="https://github.com/kingodjerry/auto_camera/assets/143167244/7cddcc5a-67de-4e31-b395-6d1b25bdeb64"></img><img width=34% height=100% src="https://github.com/kingodjerry/auto_camera/assets/143167244/c65b67dd-e4aa-4358-bb69-52ce0695bf1e"></img>
-</div>
+| ![img](https://github.com/kingodjerry/auto_camera/assets/143167244/6defd17b-5ae3-4844-8cb6-3f01f07358b6) | ![img](https://github.com/kingodjerry/auto_camera/assets/143167244/7cddcc5a-67de-4e31-b395-6d1b25bdeb64) | ![img](https://github.com/kingodjerry/auto_camera/assets/143167244/c65b67dd-e4aa-4358-bb69-52ce0695bf1e) |
+|:---:|:---:|:---:|
+
 
 ## 실행 화면
 ![image](https://github.com/kingodjerry/auto_camera/assets/143167244/f54aebaf-dbea-4a7c-9cd2-dbe46198e5e8)
